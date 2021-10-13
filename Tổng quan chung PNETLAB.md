@@ -12,6 +12,9 @@
 
 &ensp;[Một số đặc điểm](#1.4)
 
+[Cơ chế hệ thống của PNETLab](#2)
+
+
 ### <a name="1"> Tổng quan </a>
 
 PNETLab (Packet Network Emulator Tool Lab) là một nền tảng cho phép bạn tải xuống và chia sẻ lab với cộng đồng.
@@ -27,3 +30,53 @@ Bao gồm PNETLab Box và PNETLab store:
  - PNETLab Store là một nền tảng web với hàng trăm Lab miễn phí trong các lĩnh vực mạng, cơ sở dữ liệu, hệ thống ... Tất cả những gì bạn cần làm là tải lab và học (IOS, Docker được bao gồm trong lab khi bạn tải xuống từ PNETLab)
 
 ![image](https://user-images.githubusercontent.com/69178270/137084821-98600f76-f49d-4b97-98b4-df607710c67b.png)
+
+<a name="1.2"> **Những phần mềm và nền tảng ảo hỗ trợ** </a>
+
+ -	VMware Workstation 12.5 or later.
+ 
+ -	VMware Player 12.5 or later.
+ 
+ -	VMware ESXi 6.0 or later.
+ 
+ -	Ubuntu Server 16.04 LTS as platform for bare metal (roadmap).
+ 
+ -	Google Cloud Platform.
+
+<a name="1.3"> **Phần cứng và hệ thống không hỗ trợ** </a>
+
+ -	AMD CPU based PC or Server.
+
+ -	VirtualBox virtualization.
+
+ -	Citrix XenServer.
+
+ -	Microsoft HyperV.
+
+ -	Ubuntu 17.X or 18.x as platform.
+
+<a name="1.4"> **Một số đặc điểm** </a>
+
+ - Có phiên bản Offline
+  
+ - Miễn phí         
+ 
+ - Hỗ trợ Lab Store, Device Soter, …
+
+ - Hỗ trợ nhiều hệ điều hành (Cisco, Juniper, Arista,…)
+
+ - Quyền người dùng
+
+ - Các đặc điểm hỗ trợ làm Lab (Task, Timer,…)
+
+ - Không giới hạn số Node ở mỗi Lab
+
+ - 3D Model
+
+ - Có thể quản lý lượng RAM, CPU, HDD sử dụng cho từng thiết bị
+
+ - Cấu hình Proxy
+
+ - Icon đẹp, có thể tùy chỉnh
+
+ - Hỗ trợ Wireshark Capture, Telnet, Hot connections, NAT cloud,…

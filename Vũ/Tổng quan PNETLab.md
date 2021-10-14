@@ -101,7 +101,7 @@ Gồm 2 mode : Offline Mode và Online Mode
 
  -	Người dùng có thể tùy chỉnh chế độ đăng nhập mặc định, vô hiệu hoặc kích hoạt các chế độ.
 
- -	Hệ thống cũng hỗ trợ chuyển chế độ bằng câu lệnh:
+ - Hệ thống cũng hỗ trợ chuyển chế độ bằng câu lệnh:
 
    *	Để thay đổi chế độ mặc định sử dụng câu lệnh : mode default online hoặc mode default offline.
  

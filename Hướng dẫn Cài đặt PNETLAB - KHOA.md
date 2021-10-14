@@ -194,13 +194,3 @@ Tiếp theo ta nhập lệnh:
 ![image](https://user-images.githubusercontent.com/55483458/137258650-059cb311-e481-440a-9d76-4a9d91f84027.png)
 
 ## CHÚC CÁC BẠN MAY MẮN !!!!
-
-
-
-
-
-
-
-
-
-

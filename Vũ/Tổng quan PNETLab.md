@@ -80,3 +80,31 @@ Bao gồm PNETLab Box và PNETLab store:
  - Icon đẹp, có thể tùy chỉnh
 
  - Hỗ trợ Wireshark Capture, Telnet, Hot connections, NAT cloud,…
+
+### <a name="2"> Cơ chế hệ thống của PNETLab </a>
+
+Gồm 2 mode : Offline Mode và Online Mode
+
+![image](https://user-images.githubusercontent.com/69178270/137245462-480d79fd-44c4-430e-a7e1-acd9f4a58d07.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137245515-5049ade9-d5a9-4183-9bb7-c5ef4521cc20.png)
+
+ -	Khi nhấn vào Online Mode : Online Mode sẽ được kích hoạt và Offline Mode sẽ bị vô hiệu. Chế độ mặc định sẽ được chuyển thành Online.
+ 
+ -	Khi nhấn vào Offline Mode : Offline Mode sẽ được kích hoạt và Online Mode sẽ bị vô hiệu. Chế độ mặc định sẽ được chuyển thành Offline. Tài khoản mặc định sẽ là : admin/pnet.
+ 
+![image](https://user-images.githubusercontent.com/69178270/137245560-d5b4a326-99b6-497e-94c8-e00eee5f5af0.png)
+
+Để quản lý System Mode : **System -> System Mode**
+
+![image](https://user-images.githubusercontent.com/69178270/137245611-2b3a8567-8504-476f-abc3-7726bf06996f.png)
+
+ -	Người dùng có thể tùy chỉnh chế độ đăng nhập mặc định, vô hiệu hoặc kích hoạt các chế độ.
+
+ -	Hệ thống cũng hỗ trợ chuyển chế độ bằng câu lệnh:
+
+   *	Để thay đổi chế độ mặc định sử dụng câu lệnh : mode default online hoặc mode default offline.
+ 
+   *	Để cài lại mật khẩu offline sử dụng câu lệnh : mode reset offline.
+
+   *	Để cài lại chế độ của hệ thống sang nguyên bản sử dụng câu lệnh : mode reset all.

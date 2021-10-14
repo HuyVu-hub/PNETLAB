@@ -14,6 +14,11 @@
 
 [Cơ chế hệ thống của PNETLab](#2)
 
+[Quản lý tài khoản Offline](#3)
+
+[Quản lý tài khoản Online](#4)
+
+[Nâng cấp PNETLab](#5)
 
 ### <a name="1"> Tổng quan </a>
 
@@ -103,8 +108,92 @@ Gồm 2 mode : Offline Mode và Online Mode
 
  - Hệ thống cũng hỗ trợ chuyển chế độ bằng câu lệnh:
 
-   *	Để thay đổi chế độ mặc định sử dụng câu lệnh : mode default online hoặc mode default offline.
+   *	Để thay đổi chế độ mặc định sử dụng câu lệnh : **mode default online** hoặc **mode default offline**.
  
-   *	Để cài lại mật khẩu offline sử dụng câu lệnh : mode reset offline.
+   *	Để cài lại mật khẩu offline sử dụng câu lệnh : **mode reset offline**.
 
-   *	Để cài lại chế độ của hệ thống sang nguyên bản sử dụng câu lệnh : mode reset all.
+   *	Để cài lại chế độ của hệ thống sang nguyên bản sử dụng câu lệnh : **mode reset all**.
+
+### <a name="3"> Quản lý tài khoản Offline </a>
+
+Tạo Role và tài khoản người dùng tại : **Accounts**
+
+![image](https://user-images.githubusercontent.com/69178270/137245992-2de540cd-842c-4c95-bd93-8a8468acdf24.png)
+
+ -	Có thể tạo tối đa 10 tài khoản.
+ 
+ -	Tài khoản Offline sẽ có tag    và tài khoản Online sẽ có tag 🌍. Bạn không thể tùy chỉnh tài khoản Online
+ 
+ -	Để thêm tài khoản nhấn vào nút Add ➕
+ 
+ -	Cần ít nhất là username, password và role
+ 
+ -	Có thể đặt thời gian kích hoạt hoặc hết hạn cho từng tài khoản.
+
+![image](https://user-images.githubusercontent.com/69178270/137246116-4842ad79-e1ca-40c7-833a-64e1eb941602.png)
+
+### <a name="4"> Quản lý tài khoản Online </a>
+
+Cũng như tài khoản Offline, để tạo tài khoản Online và Role : **Accounts**
+
+![image](https://user-images.githubusercontent.com/69178270/137246196-32d2c62c-08e6-4bb6-bc8a-715ae5e929b9.png)
+
+ -	Có thể tạo tối đa 10 tài khoản.
+ 
+ -	Tài khoản Offline sẽ có tag    và tài khoản Online sẽ có tag 🌍. Bạn không thể tùy chỉnh tài khoản Online
+ 
+ -	Để thêm tài khoản nhấn vào nút Add ➕
+
+ -	Cần email, và role.
+
+ -	Có thể đặt thời gian kích hoạt hoặc hết hạn cho từng tài khoản.
+ 
+![image](https://user-images.githubusercontent.com/69178270/137246266-b5fa92ca-563f-4f32-98a1-0c6aa1ab4e12.png)
+
+### <a name="5"> Nâng cấp PNETLab </a>
+
+**PNETLab có kết nối mạng:**
+
+![image](https://user-images.githubusercontent.com/69178270/137246384-a5debaca-87cb-4f24-9df5-2cf1f1b9c61f.png)
+
+Để nâng cấp phiên bản mới nhất : **System > Version > Upgrade**
+
+**PNETLab không có kết nối mạng:**
+
+B1: Vào trang chủ để tải những gói nâng cấp.
+
+B2: Người dùng phải nâng cấp từng bước một từ phiên bản hiện tại đến phiên bản mới nhất ( VD 1.0.1 > 1.0.2 > 1.0.3. Không thể nâng cấp từ 1.0.1 > 1.0.3,có thể gây ra lỗi )
+
+B3: Sau khi tải gói nâng cấp. Sao chép nó tới thư mục /tmp của PNETLab.
+
+B4: Khởi động PNETLab và đăng nhập bằng tài khoản root và chạy câu lệnh để kiểm tra:
+
+ **. cd /tmp**
+	
+ **. ls -l**
+
+B5: Giải nén gói nâng cấp bằng lệnh:
+	
+ . Xóa gói nâng cấp cũ nếu có : **rm -rf upgrade**
+	
+ . **unzip [package] -d ./upgrade** ( VD : unzip 4.0.1.zip -d ./upgrade)
+	
+ . Kiểm tra lại bằng câu lệnh : **ls -l** . Sẽ thấy thư mục nâng cấp.
+
+![image](https://user-images.githubusercontent.com/69178270/137246564-9933e6d8-b6d5-4911-9d32-c910548171d2.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137246573-63020db3-f8d2-4bee-82c5-ee8315543fa2.png)
+
+B6: Chạy những câu lệnh để nâng cấp:
+	
+ **. chmod 755 -R upgrade**
+	
+ **. find upgrade -type f -print0 | xargs -0 dos2unix 2>&1**
+	
+ **.  ./upgrade/upgrade**
+ 
+![image](https://user-images.githubusercontent.com/69178270/137246637-6a4eaee5-c435-4d2e-90fa-cc7076881925.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137246652-ff4847c8-8427-4f74-bfca-b8d3f501c2f6.png)
+
+B7: Đăng nhập vào trang Web và kiểm tra.

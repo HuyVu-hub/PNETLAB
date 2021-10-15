@@ -110,3 +110,59 @@ Xem OSPF database trên R3
 
 ![image](https://user-images.githubusercontent.com/69178270/137427787-bcf1db45-11f6-4adc-80cd-a21899166ddc.png)
 
+**Bước 5:**
+
+Cấu hình của R5
+
+![image](https://user-images.githubusercontent.com/69178270/137441961-acceca33-5dde-4b98-941e-825778a0509b.png)
+
+Xác minh R5 có bảng định tuyến OSPF đầy đủ và có thể ping các địa chỉ lo0 khác
+
+![image](https://user-images.githubusercontent.com/69178270/137441634-ad481067-1e8b-4d85-8b33-02cf07aaf573.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137441684-ba9414b5-bf1c-45c2-a752-514b94c32f95.png)
+
+**Bước 6:**
+
+Lưu ý rằng tuyến tóm tắt chưa được đẩy vào Khu vực 0 vì không có tuyến con nào có trong bảng định tuyến của R2.
+
+![image](https://user-images.githubusercontent.com/69178270/137441858-4249a1fe-d263-4fdf-96bc-8261b00c6c3d.png)
+
+**Bước 7:**
+
+Cấu hình của R6 và R10
+
+![image](https://user-images.githubusercontent.com/69178270/137442093-3ae6da75-ef0f-492c-ba9b-843a4529b133.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137442179-e01f7bdb-12fb-426f-98a8-7dd4992c8114.png)
+
+Xác minh rằng các bộ định tuyến có thể ping các thiết bị khác giao diện Lo0
+
+![image](https://user-images.githubusercontent.com/69178270/137442281-db4df027-6147-4b7d-9479-b59813ca069a.png)
+
+**Bước 6:**
+
+Xác minh rằng R1 chỉ nhận được tuyến đường tóm tắt 10.6.200.0/23 từ R2 trong Vùng 0 LSDB của nó
+
+![image](https://user-images.githubusercontent.com/69178270/137442511-35e40716-ce4f-43b7-a4e5-6a620a6040dc.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137442653-252e8917-8746-497e-a3e1-51cfe9d0663f.png)
+
+**Bước 7:**
+
+Điều quan trọng cần biết là lý do tuyến đường này là LSA Loại 3 / Tóm tắt không phải vì chúng tôi đã tóm tắt nó trên R2 mà bởi vì nó vượt qua từ một đường không phải đường trục vào đường trục.
+
+Như chúng ta có thể thấy dễ dàng trên R3:
+
+![image](https://user-images.githubusercontent.com/69178270/137442807-bac51d4e-0c7c-442b-9d8c-534465ae9021.png)
+
+Đồng thời, xin lưu ý rằng vì đây là khu vực sơ khai, chúng tôi thấy tất cả LSA Loại 1 + 2 + 3 và ABR R2 đưa một tuyến đường 0/0 vào khu vực này.
+
+Nếu chúng tôi có một tuyến đường bên ngoài (Type5 LSA), nó sẽ không được nhìn thấy trong Khu vực 2.
+
+![image](https://user-images.githubusercontent.com/69178270/137442879-504f97a5-d022-43cb-a2a5-2a9f2c20bbc1.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137442929-b8e06123-e362-4993-81a7-e90b213b4777.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137442990-135c7efc-b19e-4df7-9afc-584061a9ee73.png)
+

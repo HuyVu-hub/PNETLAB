@@ -90,3 +90,23 @@ Kiểm tra đường chuyền
 
 **Bước 3:**
 
+Xem OSPF database trên R1
+
+**show ip ospf database**
+
+![image](https://user-images.githubusercontent.com/69178270/137425674-4a269ebf-9cba-4efe-ab4f-a5dd337de80c.png)
+
+**show ip ospf database router 155.3.3.3**
+
+![image](https://user-images.githubusercontent.com/69178270/137427264-d3a528a7-9081-43b5-94c6-3e327bbca3e3.png)
+
+**show ip ospf database network 10.2.3.3**
+
+![image](https://user-images.githubusercontent.com/69178270/137427342-9b48e231-34da-429b-80fc-aa8599572b25.png)
+
+**Bước 4:**
+
+Xem OSPF database trên R3
+
+![image](https://user-images.githubusercontent.com/69178270/137427787-bcf1db45-11f6-4adc-80cd-a21899166ddc.png)
+

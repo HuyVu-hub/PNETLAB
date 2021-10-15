@@ -208,5 +208,22 @@ Và trên R4, các tuyến EIGRP được coi là tuyến loại 5, được chu
 
 ![image](https://user-images.githubusercontent.com/69178270/137446325-f6295655-4803-4bd3-8c3a-dd5b1b5703af.png)
 
-![image](https://user-images.githubusercontent.com/69178270/137446855-157d121a-90dc-49eb-89a6-28aba03be82e.png)
+![image](https://user-images.githubusercontent.com/69178270/137447060-cec8ccc8-f359-4cc8-a93e-4f5e519a969a.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137447139-22a114e9-d9b3-455f-ab70-702eecab7370.png)
+
+**Bước 10**
+
+Nếu nhìn vào R5 trong một Khu vực bình thường, bạn sẽ thấy tất cả LSA trong khu vực, LSA liên khu vực và LSA bên ngoài.
+
+![image](https://user-images.githubusercontent.com/69178270/137447279-d11728f7-b3f2-4be9-8eaf-fc4d3b927189.png)
+
+Nếu nhìn vào khu vực 2 trên R6, bạn chỉ thấy LSA nội bộ và liên khu vực. Và không có LSA bên ngoài
+
+![image](https://user-images.githubusercontent.com/69178270/137447394-08d4cca5-172d-41ba-9ba7-5bddc9093493.png)
+
+Nếu nhìn vào một khu vực hoàn toàn sơ khai như khu vực 4 trên R11, bạn sẽ chỉ thấy LSA trong khu vực và một LSA Loại 3 duy nhất là tuyến đường mặc định.
+
+![image](https://user-images.githubusercontent.com/69178270/137447468-81c4dc98-672b-4d94-b775-eb71199ef5d5.png)
+
 

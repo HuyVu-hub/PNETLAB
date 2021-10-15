@@ -1,7 +1,5 @@
 ### Changing the Configuration Register on IOS devices
 
-### Cấu hình Changing the Configuration Register on IOS devices
-
 ![image](https://user-images.githubusercontent.com/69178270/137419210-58d5ea8a-4b4d-4b3a-9fbc-6970b38682bc.png)
 
 **Bước 1:**

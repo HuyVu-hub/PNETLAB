@@ -2,6 +2,8 @@
 
 ### Cấu hình Cisco Discovery Protocol
 
+![image](https://user-images.githubusercontent.com/69178270/137419121-bd20611f-a4ba-469b-96e6-a50f709ef297.png)
+
 **Bước 1:**
 
 Xem yêu cầu cấu hình

@@ -1,6 +1,23 @@
 # CẤU HÌNH MỘT SỐ BÀI LAB PNET:
 
-# Subnetting Summarization Static Routing and ACLs ![](.//media/image13.png)
+# MỤC LỤC
+
+
+&ensp;[1. Subnetting Summarization Static Routing and ACLs !](#1)
+
+&ensp;[2. Static Routing and DNS](#2)
+
+&ensp;[3. EIGRP Summarization Static NAT ACLs](#3)
+
+&ensp;[4. Multi- Area OSPF LAN Switching](#4)
+
+&ensp;[5. EIGRP PAT ACLs and Banners](#5)
+
+&ensp;[6. VTP STP and OSPF](#6)
+
+&ensp;[7. DHCP InterVLAN routing and RIPv2](#7)
+
+# <a name="1">1.  Subnetting Summarization Static Routing and ACLs ![](.//media/image13.png)</a>
 
 ## Thay đổi Hostname và cấu hình IP, loopback interfack
 
@@ -39,7 +56,7 @@ R3:
 
 ![](.//media/image21.png)
 
-# Static Routing and DNS
+# <a name="2">2.  Static Routing and DNS</a>
 
 ![](.//media/image22.png)
 
@@ -106,7 +123,7 @@ R3:
 
 ![](.//media/image34.png)
 
-# EIGRP Summarization Static NAT ACLs
+# <a name="3">3.  EIGRP Summarization Static NAT ACLs</a>
 
 ![](.//media/image35.png)
 
@@ -204,7 +221,7 @@ R3:
 ![](.//media/image47.png)
 
 
-# Multi- Area OSPF LAN Switching 
+# <a name="4">4.  Multi- Area OSPF LAN Switching<a/>
 
 ![](.//media/image48.png)
 
@@ -285,7 +302,7 @@ R3:
 
 ![](.//media/image65.png)
 
-# EIGRP PAT ACLs and Banners
+  # <a name="5">5.  EIGRP PAT ACLs and Banners</a>
 
 ![](.//media/image66.png)
 
@@ -384,7 +401,7 @@ R3:
 ![](.//media/image83.png)
 
 
-# VTP STP and OSPF
+  # <a name="6">6.  VTP STP and OSPF</a>
 
 ## Change Hostname
 
@@ -493,7 +510,7 @@ R3:
 
 ![](.//media/image109.png)
 
-# DHCP InterVLAN routing and RIPv2
+  # <a name="7">7.  DHCP InterVLAN routing and RIPv2</a>
 
 ![](.//media/image110.png)
 

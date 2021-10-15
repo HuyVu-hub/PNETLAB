@@ -166,3 +166,47 @@ Nếu chúng tôi có một tuyến đường bên ngoài (Type5 LSA), nó sẽ 
 
 ![image](https://user-images.githubusercontent.com/69178270/137442990-135c7efc-b19e-4df7-9afc-584061a9ee73.png)
 
+**Bước 8:**
+
+Cấu hình R11
+
+![image](https://user-images.githubusercontent.com/69178270/137444519-5215636a-8329-4447-aacf-4b576897795a.png)
+
+Lưu ý rằng chỉ LSA loại 1 và 2 xuất hiện trong một khu vực hoàn toàn sơ khai và một LSA loại 3. Giá trị mặc định từ ABR:
+
+![image](https://user-images.githubusercontent.com/69178270/137444677-66903bda-e4a3-4c98-9767-3df1e2fe61f5.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137444767-982f42b4-14a1-4057-8eaf-c041ecfbc4a3.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137444820-7880e0b2-dde6-4cb7-92d1-4d73804034ec.png)
+
+**Bước 9:**
+
+Cấu hình R7,8,9
+
+![image](https://user-images.githubusercontent.com/69178270/137444919-7edff902-4a8f-4b96-b3f1-017ff6d984ec.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137444942-fb7ca767-d28f-443d-9fb2-7e2e2d1b8bc4.png)
+
+Đảm bảo định tuyến đầy đủ được quảng cáo trong miền EIGRP:
+
+![image](https://user-images.githubusercontent.com/69178270/137445096-3023bb49-8a7d-42d5-bd84-69233940003a.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137445161-fd913ab1-e22b-464c-a94f-d6876a1cf8f7.png)
+
+R9 nhận tất cả các tuyến OSPF dưới dạng EIGRP bên ngoài
+
+![image](https://user-images.githubusercontent.com/69178270/137446103-f165de28-7a9f-4649-b86a-d652341cb742.png)
+
+Xác minh mạng OSPF xem tất cả các tuyến EIGRP là bên ngoài.
+
+Lưu ý rằng trên R4, các tuyến EIGRP được coi là LSA loại 7 trong khu vực 3 vì LSA loại 5 không được phép trong một khu vực cố định.
+
+Và trên R4, các tuyến EIGRP được coi là tuyến loại 5, được chuyển đổi bởi bộ định tuyến R3 / R4
+
+![image](https://user-images.githubusercontent.com/69178270/137446286-f4191837-63a6-4df2-ab7e-4e5520f17e3e.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137446325-f6295655-4803-4bd3-8c3a-dd5b1b5703af.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137446855-157d121a-90dc-49eb-89a6-28aba03be82e.png)
+

@@ -182,7 +182,8 @@ Sau khi thực hiện xong màn hình sẽ xuất hiện như trên. Các bạn 
 
     # nano ~/.iourc
     
-    ![image](https://user-images.githubusercontent.com/55483458/137258522-cd2c9a69-5936-4466-a1af-97f713c3cdd4.png)
+    
+![image](https://user-images.githubusercontent.com/55483458/137258522-cd2c9a69-5936-4466-a1af-97f713c3cdd4.png)
 
 Tiếp theo ta nhập lệnh:
 

@@ -8,5 +8,4 @@ Xem yêu cầu cấu hình
 
 ![image](https://user-images.githubusercontent.com/69178270/137420310-a264518b-6e02-41ba-ae04-b2820e95ad1b.png)
 
-**Bước 2:**
-
+Lỗi không thể mở các Router

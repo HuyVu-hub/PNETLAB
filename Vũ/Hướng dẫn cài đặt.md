@@ -83,27 +83,44 @@ Màn hình đăng nhập sau khi PNETLab khởi động lại
 
 3.	Ta cần đăng nhập vào và SSH đến địa chỉ của PNETLab
  
+![image](https://user-images.githubusercontent.com/69178270/137631365-27ca99e9-568d-4cee-ba38-971fb4f8898e.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137631368-716ece9f-3442-4e78-b07e-a1f70ca7757d.png)
 
 4.	Sau khi đăng nhập thành công ta tiến hành cập nhật và nâng cấp các gói tin theo các lệnh sau:
  
+![image](https://user-images.githubusercontent.com/69178270/137631377-24d4920a-55db-4b68-a930-36e740cffeb6.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137631384-30db90e1-6c32-4806-9530-1bb6232b1702.png)
  
 Chọn Y để đồng ý
  
+![image](https://user-images.githubusercontent.com/69178270/137631395-84466988-4d05-4aa7-8a00-d1f350cad887.png)
 
 5.	Sau khi cập nhật xong ta vào trình duyệt web nhập địa chỉ IP của PNETLab sau đó đăng ký tài khoản
   
+![image](https://user-images.githubusercontent.com/69178270/137631408-d94316df-5e91-4d7c-a041-2fb39eaed519.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137631415-ee347b32-e2f2-40df-867f-cfac0f4ec5b6.png)
 
 6.	Sau đó bạn download các Image Cisco IOL cho PNETLab
  
-Ta sử dụng WinSCP để upload các file Image vào đường dẫn /opt/unetlab/addons/iol/bin/
+![image](https://user-images.githubusercontent.com/69178270/137631435-a3f13653-54ba-4943-8a9a-f94b77a9ecbd.png)
+
+Ta sử dụng WinSCP để upload các file Image vào đường dẫn **/opt/unetlab/addons/iol/bin/**
 			 
+![image](https://user-images.githubusercontent.com/69178270/137631442-0b5c26e1-af5f-45f8-bc4f-8323496a0714.png)
 			
-	Mục bên trái là đường dẫn các Image cần thêm vào PNETLab, bên phải là đượn dẫn đến thư mục /opt/unetlab/addons/iol/bin/ chứa các Image để sử dụng cho PNETLab	 
+Mục bên trái là đường dẫn các Image cần thêm vào PNETLab, bên phải là đượn dẫn đến thư mục **/opt/unetlab/addons/iol/bin/** chứa các Image để sử dụng cho PNETLab	 
 Ta chọn các Image cần thêm và chọn Upload
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631456-bace55c1-56d2-41f9-a927-a7b079a9c641.png)
+
 Sau khi Upload xong ta vào SSH sử dụng lần lượt các lệnh sau để xác thực:
 Chuyển đến thư mục sau
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631460-7e93ec3f-7e21-4ce9-bb35-e14cf43373e5.png)
+
 Thêm quyền execute cho file CiscoIOUKeygen.py và tạo key cho IOU:
  
 Fix lại phân quyền:

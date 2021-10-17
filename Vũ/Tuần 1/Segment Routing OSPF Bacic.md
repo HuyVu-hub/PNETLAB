@@ -12,3 +12,6 @@ Xem hướng dẫn cấu hình
 
 Định cấu hình tên máy chủ và địa chỉ IP cho giao diện cho Bộ định tuyến dưới dạng topo
 
+![image](https://user-images.githubusercontent.com/69178270/137629406-c2fc12aa-046d-4b29-97c8-465e0831934a.png)
+
+Lab lỗi không thể nhập lệnh cấu hình

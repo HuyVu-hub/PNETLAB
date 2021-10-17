@@ -16,3 +16,6 @@ Cấu hình R1
 
 Cấu hình R2
 
+![image](https://user-images.githubusercontent.com/69178270/137629324-03c36bfc-d29c-4616-81f5-220b05784e01.png)
+
+Lab lỗi không thể thiết lập IP cho cổng e0/1 tại R2

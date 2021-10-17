@@ -112,30 +112,47 @@ Ta sử dụng WinSCP để upload các file Image vào đường dẫn **/opt/u
 ![image](https://user-images.githubusercontent.com/69178270/137631442-0b5c26e1-af5f-45f8-bc4f-8323496a0714.png)
 			
 Mục bên trái là đường dẫn các Image cần thêm vào PNETLab, bên phải là đượn dẫn đến thư mục **/opt/unetlab/addons/iol/bin/** chứa các Image để sử dụng cho PNETLab	 
+
+![image](https://user-images.githubusercontent.com/69178270/137631525-96dfa060-e33f-4fb7-9dd4-07edf9d570d7.png)
+
 Ta chọn các Image cần thêm và chọn Upload
- 
- ![image](https://user-images.githubusercontent.com/69178270/137631456-bace55c1-56d2-41f9-a927-a7b079a9c641.png)
+
+![image](https://user-images.githubusercontent.com/69178270/137631533-8fedc89f-2804-4af8-ac9f-745b1a1ecfb3.png)
 
 Sau khi Upload xong ta vào SSH sử dụng lần lượt các lệnh sau để xác thực:
 Chuyển đến thư mục sau
  
- ![image](https://user-images.githubusercontent.com/69178270/137631460-7e93ec3f-7e21-4ce9-bb35-e14cf43373e5.png)
-
+ ![image](https://user-images.githubusercontent.com/69178270/137631550-b5f17218-2e8b-4418-8b2c-07aab6de30a2.png)
+ 
 Thêm quyền execute cho file CiscoIOUKeygen.py và tạo key cho IOU:
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631567-8400ae90-ec74-4f34-9591-b89a5546d10d.png)
+
 Fix lại phân quyền:
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631571-97565bb9-4255-4a90-b22d-f3b975b0d0f9.png)
+
 Sau đó truy cập vào địa chi PNETLab và tiến hành làm LAB
 
 7.	Sau khi ta truy cập vào địa chỉ PNETLab và đăng nhập tài khoản đã tạo ở trên
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631579-22d23eb9-d430-4383-b27b-6d623adcee18.png)
+
 Ta có thể tự tạo bài lab cho chính mình (có thể tìm kiếm thêm các Image thiết bị để thêm vào PNETLab) hoặc có thể vào mục Download Labs để tải về và làm các bài Lab của cộng đồng.
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631584-e7b1a093-66c0-424c-bbe0-09867b00ce9d.png)
+
 Sau khi bạn Open Lab đầu tiên bạn nên mở chế độ HTML Console ở thanh bên trái màn hình để có thể cấu hình được thiết bị:
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631593-b8887186-498c-4fa5-9213-c075407e637e.png)
+
 Nếu như bạn không thể chạy được các thiết bị và ấn vào Edit thiết bị thì bị lỗi không tìm thấy Image như sau:
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631602-f49c3d84-e8e7-4152-abd9-93a979178718.png)
+
 Lúc đó bạn có thể lên mạng tìm file và thêm vào PNETLab thông qua WinSCP như trên hoặc dùng lệnh sau trên SSH để có thể thêm file:
  
+ ![image](https://user-images.githubusercontent.com/69178270/137631608-5c02c20d-8c68-47a1-97c6-ddb9409271c9.png)
+
 Sau đó Reload lại trang Web là được.
  

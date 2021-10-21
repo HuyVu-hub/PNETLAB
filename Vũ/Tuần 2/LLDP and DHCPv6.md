@@ -55,7 +55,22 @@ _Lỗi: ping không thành công_
 tiếp tục sử dụng trên các giao diện khác của nó. R1 cũng phải cung cấp tên miền của google.com và DNS
 Máy chủ 2001: 43: 123: 14 :: 1 đến R4 qua liên kết Ethernet 0/0
 
+Cấu hình R1
+
 ![image](https://user-images.githubusercontent.com/69178270/138225476-26922fca-5992-4f76-9b82-e82e13bc41d1.png)
 
 ![image](https://user-images.githubusercontent.com/69178270/138225406-e82a6700-7ce4-4b49-bcdb-13c27d3bbc37.png)
+
+Cấu hình R4
+
+![image](https://user-images.githubusercontent.com/69178270/138225800-a4112df4-5263-4bf5-8768-f04dac7432c1.png)
+
+R1 được định cấu hình với nhóm cục bộ 2001: 43: 123: 100 :: / 64 mà nó sẽ sử dụng để cho đi / 80’s out
+của nó. Trong DHCP pool R1 cũng sẽ có cấu hình cho tên miền và DNS theo yêu cầu.
+R4 đang yêu cầu thông tin dhcp từ R1 bằng cách tự cấu hình như một máy khách dhcp. pd là viết tắt của
+ủy quyền tiền tố và “DHCP-FROM-R1” có ý nghĩa cục bộ.
+Do ảnh hưởng của các cấu hình trên, R4 sẽ nhận tiền tố 2001: 43: 123: 100 :: / 80 và sẽ có
+định tuyến đến tiền tố đó được cài đặt tự động trỏ đến Null0 có nghĩa là tôi sở hữu tiền tố này.
+R1 sẽ nhận được một tuyến tĩnh đến 2001: 43: 123: 100 :: / 80 tự động được cài đặt trong bảng định tuyến của nó
+trỏ đến giao diện Ethernet của R4
 

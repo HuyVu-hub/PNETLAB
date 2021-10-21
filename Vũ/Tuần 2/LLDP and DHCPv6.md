@@ -31,6 +31,8 @@ Cấu hình R4
 
 ![image](https://user-images.githubusercontent.com/69178270/138224230-095d9f22-c943-4986-9556-d697d52e609c.png)
 
+![image](https://user-images.githubusercontent.com/69178270/138226435-85d0b227-f037-40c3-a5a9-b95b7c2feb9b.png)
+
 Định tuyến unicast IPv6 sẽ cần được bật trên cả hai bộ định tuyến để giao tiếp IPv6 hoạt động. IPv6
 tự động định cấu hình dựa vào giao thức Khám phá lân cận. R1 đang gửi tiền tố 2001: 43: 123: 14 :: / 64
 thông qua giao thức khám phá hàng xóm với thời gian thuê 7200 giây (2 giờ). R4 được cấu hình
@@ -74,3 +76,10 @@ Do ảnh hưởng của các cấu hình trên, R4 sẽ nhận tiền tố 2001:
 R1 sẽ nhận được một tuyến tĩnh đến 2001: 43: 123: 100 :: / 80 tự động được cài đặt trong bảng định tuyến của nó
 trỏ đến giao diện Ethernet của R4
 
+_Lỗi không nhận được DHCP_
+
+![image](https://user-images.githubusercontent.com/69178270/138226666-6d32b2d0-56d3-4463-9641-59f35ff43e90.png)
+
+
+
+![image](https://user-images.githubusercontent.com/69178270/138226612-1834741d-1732-41e3-b7a1-6e74022c7fd4.png)

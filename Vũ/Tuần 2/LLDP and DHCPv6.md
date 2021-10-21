@@ -84,7 +84,7 @@ _Lỗi không nhận được DHCP_
 
 ![image](https://user-images.githubusercontent.com/69178270/138226938-51f4359a-9055-4c8c-be50-a74456517691.png)
 
-**B3:** Gán tiền tố 2001: 43: 123: 100 :: / 80 (DHCP-FROM-R1) cho giao diện ethernet 1/0 trên R4
+**B4:** Gán tiền tố 2001: 43: 123: 100 :: / 80 (DHCP-FROM-R1) cho giao diện ethernet 1/0 trên R4
 với :: 4/80 làm địa chỉ máy chủ. Gán 2001: 43: 123: 100 :: 3/80 trên ethernet 1/0 của R3 và
 định cấu hình một tuyến đường mặc định trên R3 để đi qua 2001: 43: 123: 100 :: 4. R1 sẽ có thể ping
 Năm 2001: 43: 123: 100 :: 3.
@@ -108,7 +108,7 @@ bộ định tuyến, chúng ta sẽ cần phải cấu hình tốt giao diện 
 
 _Lỗi ping không thành công_
 
-**B4:** Chỉ định tĩnh địa chỉ IPv6 cho phần còn lại của các giao diện trong cấu trúc liên kết theo sơ đồ.
+**B5:** Chỉ định tĩnh địa chỉ IPv6 cho phần còn lại của các giao diện trong cấu trúc liên kết theo sơ đồ.
 
 Cấu hình R1
 
@@ -117,4 +117,64 @@ Cấu hình R1
 ![image](https://user-images.githubusercontent.com/69178270/138232431-318d52e4-40e8-4c2a-983c-c0512f5eddd4.png)
 
 Cấu hình R2
+
+![image](https://user-images.githubusercontent.com/69178270/138234296-f9695cda-6f3e-4b70-aea8-bee0f6744553.png)
+
+Cấu hình R3
+
+![image](https://user-images.githubusercontent.com/69178270/138236489-1f29c13d-0a80-408a-817d-25574ca46863.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138236541-72388687-3a99-4f99-91ce-1897fae442f8.png)
+
+Kiểm tra
+
+![image](https://user-images.githubusercontent.com/69178270/138236736-e1cdd435-915e-483a-bca8-e870b06094da.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138236877-e4d9df85-7947-4df9-aa92-3723adc2ef51.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138237002-0d6938a6-5ba9-458e-83ca-802cdc9a3374.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138237104-db04ebef-9e11-44d1-911c-ddc5aa432abc.png)
+
+**B6:** Định cấu hình OSPFv3 cho vùng 0 trên tất cả các giao diện trong cấu trúc liên kết.
+
+Cấu hình R1
+
+![image](https://user-images.githubusercontent.com/69178270/138237712-1dafaa72-2ce2-426d-9fcb-941db998aa67.png)
+
+Cấu hình R2
+
+![image](https://user-images.githubusercontent.com/69178270/138237968-9ae5a390-0449-4973-80b0-d14551c7e583.png)
+
+Cấu hình R3
+
+![image](https://user-images.githubusercontent.com/69178270/138238285-3722ee4f-ec99-4eb5-b10c-abe8ab551034.png)
+
+Cấu hình R4
+
+![image](https://user-images.githubusercontent.com/69178270/138238475-fefaf44d-55e3-4288-a1c6-212a26ae5b71.png)
+
+Kiểm tra
+
+![image](https://user-images.githubusercontent.com/69178270/138238614-a7453680-7ec8-41cf-8cd8-00bcb65bf057.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138238701-6a3c8edd-368c-4960-884e-f83d7c7f35d7.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138238803-8d55be08-e9b3-4c97-9aae-5638c11e91ae.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138238892-99d745d6-e081-4c92-a5ea-8cccf95b98e5.png)
+
+_Lỗi không thể ping_
+
+![image](https://user-images.githubusercontent.com/69178270/138239011-8b74925a-a8cf-4dbf-bc62-e846ed0ef234.png)
+
+**B7:** Định cấu hình bộ lọc lưu lượng IPv6, mạng LAN của R2 trên Ethernet 0/0 (2001: 43: 123: 2 :: / 64) không được
+có thể kết nối mạng LAN của R3 trên Ethernet 0/0 (2001: 43: 123: 3 :: / 64)
+
+_Lỗi không thể ping_
+
+![image](https://user-images.githubusercontent.com/69178270/138244987-def8d5b8-86ac-4e54-8a56-3cf8add30349.png)
+
+Bây giờ sẽ định cấu hình bộ lọc lưu lượng trên R3 để chặn bất kỳ lưu lượng nào đến từ mạng LAN của R2 và sẽ
+Mạng LAN của R3
 

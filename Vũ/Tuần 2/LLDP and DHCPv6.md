@@ -178,3 +178,19 @@ _Lỗi không thể ping_
 Bây giờ sẽ định cấu hình bộ lọc lưu lượng trên R3 để chặn bất kỳ lưu lượng nào đến từ mạng LAN của R2 và sẽ
 Mạng LAN của R3
 
+Cấu hình R3
+
+![image](https://user-images.githubusercontent.com/69178270/138253137-7e2ec8d2-452e-4e4b-b6c4-68b0d6fb548e.png)
+
+Ping từ R2
+
+![image](https://user-images.githubusercontent.com/69178270/138253406-cd804887-3fa1-47b8-a301-5cccfd5a4708.png)
+
+_Lỗi không thể ping_
+
+Xem trên R3
+
+![image](https://user-images.githubusercontent.com/69178270/138253565-bdf37406-a59e-4ebc-ae8d-7aa65fc1755a.png)
+
+**B8:** Định cấu hình LLDP trên tất cả các giao diện ethernet và đảm bảo rằng R1 có thể nhìn thấy R2 thông qua LLDP.
+

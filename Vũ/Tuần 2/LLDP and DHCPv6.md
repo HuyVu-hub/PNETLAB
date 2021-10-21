@@ -15,7 +15,21 @@ Cả Autoconfig và DHCPv6 đều là một phần của giao thức IPv6 Neighb
 cung cấp địa chỉ IPv6 cho R4 trên liên kết Ethernet 0/0 trong phạm vi 2001: 43: 123: 14 :: / 64. R4 nên
 cũng nhận được một tuyến đường mặc định từ R1.
 
+_Thông tin cấu hình sai_
+
 ![image](https://user-images.githubusercontent.com/69178270/138199519-2fc6b0e0-63d7-40a9-85a5-11bc46c23f8c.png)
+
+Cấu hình cổng e0/0
+
+Cấu hình R1
+
+![image](https://user-images.githubusercontent.com/69178270/138224080-542dfef3-ed84-4bcd-8319-a372b6872fc3.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138224154-028e555c-8ce8-4c92-85bd-99f1f6bb4bf8.png)
+
+Cấu hình R4
+
+![image](https://user-images.githubusercontent.com/69178270/138224230-095d9f22-c943-4986-9556-d697d52e609c.png)
 
 Định tuyến unicast IPv6 sẽ cần được bật trên cả hai bộ định tuyến để giao tiếp IPv6 hoạt động. IPv6
 tự động định cấu hình dựa vào giao thức Khám phá lân cận. R1 đang gửi tiền tố 2001: 43: 123: 14 :: / 64

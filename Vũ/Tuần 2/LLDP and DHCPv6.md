@@ -80,6 +80,41 @@ _Lỗi không nhận được DHCP_
 
 ![image](https://user-images.githubusercontent.com/69178270/138226666-6d32b2d0-56d3-4463-9641-59f35ff43e90.png)
 
+![image](https://user-images.githubusercontent.com/69178270/138226871-25b86149-f21b-4d88-b1bd-13236cfaf741.png)
 
+![image](https://user-images.githubusercontent.com/69178270/138226938-51f4359a-9055-4c8c-be50-a74456517691.png)
 
-![image](https://user-images.githubusercontent.com/69178270/138226612-1834741d-1732-41e3-b7a1-6e74022c7fd4.png)
+**B3:** Gán tiền tố 2001: 43: 123: 100 :: / 80 (DHCP-FROM-R1) cho giao diện ethernet 1/0 trên R4
+với :: 4/80 làm địa chỉ máy chủ. Gán 2001: 43: 123: 100 :: 3/80 trên ethernet 1/0 của R3 và
+định cấu hình một tuyến đường mặc định trên R3 để đi qua 2001: 43: 123: 100 :: 4. R1 sẽ có thể ping
+Năm 2001: 43: 123: 100 :: 3.
+
+Cấu hình R4
+
+![image](https://user-images.githubusercontent.com/69178270/138227227-787dc4f6-4fcb-43ae-9462-8204d087fe87.png)
+
+Cấu hình R3
+
+![image](https://user-images.githubusercontent.com/69178270/138227639-852a4336-ca13-44b8-a09f-1debe3d16b59.png)
+
+Tôi đã định cấu hình 2001: 43: 123: 100 :: 3 trên ethernet 1/2 của R3 và định cấu hình một tuyến mặc định đi qua
+R4. Bước tiếp theo cho tuyến đường mặc định (tĩnh) mà chúng tôi định cấu hình theo cách thủ công có thể là địa chỉ liên kết của
+mạng từ xa hoặc nó có thể chỉ là địa chỉ toàn cầu next hop. Nếu sử dụng liên kết địa chỉ cục bộ của điều khiển từ xa
+bộ định tuyến, chúng ta sẽ cần phải cấu hình tốt giao diện hop tiếp theo.
+
+![image](https://user-images.githubusercontent.com/69178270/138227818-90bc91f7-a3f2-4c40-a2b5-71c4a8ca8fb9.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138228080-cb64272f-783a-46c6-91ab-6e8d3fad9245.png)
+
+_Lỗi ping không thành công_
+
+**B4:** Chỉ định tĩnh địa chỉ IPv6 cho phần còn lại của các giao diện trong cấu trúc liên kết theo sơ đồ.
+
+Cấu hình R1
+
+![image](https://user-images.githubusercontent.com/69178270/138232314-04156213-3e83-4367-af7b-04ca81183288.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138232431-318d52e4-40e8-4c2a-983c-c0512f5eddd4.png)
+
+Cấu hình R2
+

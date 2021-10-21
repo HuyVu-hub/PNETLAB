@@ -55,7 +55,7 @@ _Lỗi: ping không thành công_
 tiếp tục sử dụng trên các giao diện khác của nó. R1 cũng phải cung cấp tên miền của google.com và DNS
 Máy chủ 2001: 43: 123: 14 :: 1 đến R4 qua liên kết Ethernet 0/0
 
+![image](https://user-images.githubusercontent.com/69178270/138225476-26922fca-5992-4f76-9b82-e82e13bc41d1.png)
 
-
-
+![image](https://user-images.githubusercontent.com/69178270/138225406-e82a6700-7ce4-4b49-bcdb-13c27d3bbc37.png)
 

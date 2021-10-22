@@ -194,3 +194,33 @@ Xem trên R3
 
 **B8:** Định cấu hình LLDP trên tất cả các giao diện ethernet và đảm bảo rằng R1 có thể nhìn thấy R2 thông qua LLDP.
 
+Cấu hình R1
+
+![image](https://user-images.githubusercontent.com/69178270/138375115-5a5988c7-9f1b-4253-a94d-95324a373452.png)
+
+Cấu hình R2
+
+![image](https://user-images.githubusercontent.com/69178270/138375164-42e3b14f-a3a7-4133-9005-e4b01c4e62b1.png)
+
+Cấu hình R3
+
+_Thiếu lệnh lldp run_
+
+![image](https://user-images.githubusercontent.com/69178270/138375209-56ea7545-8073-4b2d-8ed6-bcadff957ddc.png)
+
+Cấu hình R4
+
+![image](https://user-images.githubusercontent.com/69178270/138375290-61ac02ba-625c-43c3-8946-85acb0b38ad5.png)
+
+LLDP được cấu hình tương tự như CDP với những khác biệt nhỏ. LLDP cần được chạy trên toàn cầu
+chế độ cấu hình. Sau đó, chúng ta cần kích hoạt tính năng gửi và nhận các gói lldp trên mỗi
+giao diện mà chúng tôi muốn chạy nó. Sau khi được bật theo mặc định, nó sẽ chạy trên tất cả các giao diện
+
+![image](https://user-images.githubusercontent.com/69178270/138375343-e49efbce-07e5-4a46-bb1c-cd2050a0e71e.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138375368-d409fcf7-2a8e-4f73-a6b1-d3000b17da60.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138375430-e2fa85d0-afcd-460d-b59e-fa37a1fb58ad.png)
+
+![image](https://user-images.githubusercontent.com/69178270/138375486-d6173744-d1c0-4708-9809-ba92e1f73670.png)
+

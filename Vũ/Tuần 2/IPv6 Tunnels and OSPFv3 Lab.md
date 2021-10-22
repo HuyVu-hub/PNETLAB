@@ -17,3 +17,5 @@ Cấu hình R1
 
 Cấu hình R2
 
+![image](https://user-images.githubusercontent.com/69178270/138376314-0be78ece-94bf-4aa4-9b30-acb61a7689b7.png)
+

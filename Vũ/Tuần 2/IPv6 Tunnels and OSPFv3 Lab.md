@@ -43,9 +43,6 @@ Cấu hình R4
 
 ![image](https://user-images.githubusercontent.com/69178270/138377233-f5b3a8ce-e611-48a5-b167-a161dd49cf8e.png)
 
-![image](https://user-images.githubusercontent.com/69178270/138377655-13b944da-2102-4e00-8eb7-66d2f4f4b8d4.png)
-
-
 Xác minh cấu hình EIGRP của bạn bằng lệnh show ip eigrp Neighbor:
 
 ![image](https://user-images.githubusercontent.com/69178270/138377306-00128815-4e11-4238-bada-6c3737bdd3c1.png)

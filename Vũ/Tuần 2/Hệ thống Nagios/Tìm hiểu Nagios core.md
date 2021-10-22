@@ -48,13 +48,18 @@
 - Ưu điểm:
 
   ●	Là một phần mềm mã nguồn mở và miễn phí
+  
   ●	Giám sát tập trung
+  
   ●	Có thể tích hợp được nhiều ngôn ngữ khác nhau
+  
   ●	Có một cộng đồng phát triển plugins lớn, vì vậy có rất nhiều các plugins đã có sẵn.
 
 - Nhược điểm:
 
+  
   ●	Giao diện đồ họa lâu đời
+  
   ●	Không có khả năng tự phát hiện host khi được thêm vào. Người quản trị sẽ phải cấu hình thủ công tất cả các host và các service. Việc này ảnh hưởng đến khả năng mở rộng quy mô khó khăn.
 
 ### <a name="6"> Luồng hoạt động của Nagios core </a>

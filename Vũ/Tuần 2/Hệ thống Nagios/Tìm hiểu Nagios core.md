@@ -63,3 +63,13 @@
   ●	Không có khả năng tự phát hiện host khi được thêm vào. Người quản trị sẽ phải cấu hình thủ công tất cả các host và các service. Việc này ảnh hưởng đến khả năng mở rộng quy mô khó khăn.
 
 ### <a name="6"> Luồng hoạt động của Nagios core </a>
+
+![image](https://user-images.githubusercontent.com/69178270/138389036-fa36955e-e34f-46c7-a949-dfccf2995fd3.png)
+
+- Bước 1: Client sẽ sử dụng giao thức http để tạo yêu cầu thông tin website cho nagios server
+- Bước 2: Web server sẽ sử dụng CGI để lấy thông tin từ nagios server
+- Bước 3: Nagios server sẽ xem lại file cache. Nếu trong đó có thông tin mà client yêu cầu thì nó sẽ lập tức trả lại kết quả. Nếu không có nagios sẽ tạo ra một plugins để kiểm tra lại thông tin mà client yêu cầu
+- Bước 4: Plugins sẽ check thông tin theo yêu cầu và sau đó trả lại thông tin lại cho nagios server
+- Bước 5: Sau khi được nhận thông tin từ plugins thì nagios server sẽ lưu trữ thông tin đó vào một file hoặc một DB do cài đặt của người quản trị. Và đồng thời nó sẽ lưu trữ thông tin này vào file cache nếu người quản trị có sử dụng chức năng của file này
+- Bước 6: Nagios sẽ xác định những việc phải làm dựa trên thông tin được trả về từ nagios. Có cần cảnh báo hay không và đánh giá trạng thái của các host hay service. Rồi sau đó trả lại thông tin cho webserver
+- Bước 7: Web server sẽ sử dụng lại giao thức http trả lại thông tin mà client yêu cầu.

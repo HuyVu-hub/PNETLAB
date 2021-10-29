@@ -18,4 +18,17 @@ Cấu hình R1
 
 ![image](https://user-images.githubusercontent.com/69178270/139372241-a8085b0d-c3d9-4abd-a86f-8ff20b115457.png)
 
+![image](https://user-images.githubusercontent.com/69178270/139372313-22269ad0-3ba5-4836-aed1-61b33c5b1e39.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139372332-aeac3125-ffd6-4fed-9dfa-2dbfd35a2dd0.png)
+
+Cấu hình R2
+
+![image](https://user-images.githubusercontent.com/69178270/139373442-1485908b-f763-4b7f-87a3-3ae49a2f5d81.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139373457-52dc1ea9-d9ab-4707-b458-18cda6a98182.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139373478-4180034a-067f-4cc0-91f9-88b2e9330ebf.png)
+ 
+Cấu hình R3
 

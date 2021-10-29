@@ -78,3 +78,28 @@ Cấu hình R4
 
 Cấu hình R5
 
+![image](https://user-images.githubusercontent.com/69178270/139438541-0b4f5fd3-542a-4add-a2b2-581e4e26a54f.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139438581-188a504a-81cd-4c0a-911d-22c8b1434736.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139438620-c2c52902-a27c-4bb5-b747-2cf556cbc426.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139438664-5434ea1a-e0a4-471f-a975-b888dc41c21a.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139438700-bc9dc9cd-7047-4110-91b6-3fea96ab3790.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139438745-86701c16-90d6-4bba-a20c-23649ad72ea7.png)
+
+**B3:** Kiểm tra
+
+![image](https://user-images.githubusercontent.com/69178270/139438921-2b9fced0-0ab6-458c-acec-0a8feb6be85e.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139439030-84b6d988-78ec-44f6-a924-fff0b17ef0d4.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139439119-d5b5c6d9-b230-400a-9fbc-524f95aed5ac.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139439199-6d00b1e7-b4c2-4f44-bb61-cfa54d3c5991.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139439279-7cb98148-80b4-4762-982b-9cf7f014cccc.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139439389-2f4585a2-2f69-4f01-8c8a-7be6ddbef9ca.png)

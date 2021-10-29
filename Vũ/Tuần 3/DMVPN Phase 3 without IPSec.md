@@ -32,3 +32,50 @@ Cấu hình R2
  
 Cấu hình R3
 
+![image](https://user-images.githubusercontent.com/69178270/139385418-fd2c7cff-a49b-45a8-9f6b-fb80ce7864d0.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139385464-e7092397-a6e9-4e2f-a011-ec9a1e3af202.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139385532-b10456ee-2df9-47da-9c5f-9581f51b47d6.png)
+
+Cấu hình R4
+
+![image](https://user-images.githubusercontent.com/69178270/139424962-4a668699-fbac-47e6-ba47-380b2cfd12e4.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139424999-23416c9e-4b8a-437c-8007-fc80fb015618.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139425045-46729b28-6f20-401f-91c2-38fd35066a12.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139425091-f7f0d2a9-01c7-4d47-9c4c-65ae48444d0d.png)
+
+Cấu hình R5
+
+![image](https://user-images.githubusercontent.com/69178270/139426248-54af3a3a-a4b9-49a7-a99b-b11526b7df92.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139426276-a4f10a54-d159-42fb-a38e-4411ee9d7df1.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139426309-af0bc9d1-8fcf-4551-af91-772631023a61.png)
+
+**B2:** Kiểm tra
+
+![image](https://user-images.githubusercontent.com/69178270/139426893-2a8a91a9-2939-4664-bdbc-4c488c30358f.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139427099-b5737b77-11b1-43f6-ae9d-fed38834e7e0.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139427141-2d3c0822-b83d-4635-b95f-1ce923c736f8.png)
+
+_Lỗi chưa thể kết nối_
+
+![image](https://user-images.githubusercontent.com/69178270/139427376-c3624151-e1d0-4c3b-ad49-ae17d10ff05f.png)
+
+_Lỗi không nhận cấu hình RIP_
+
+![image](https://user-images.githubusercontent.com/69178270/139427440-049a9747-ab77-4dfc-bbab-9e240b25ea5d.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139427496-c061a9da-9bb8-4de3-8ac2-b28ff0bd5311.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139427560-178b85a4-8186-4c19-92de-0b53dac1a09a.png)
+
+_Kết nối thất bại_
+
+![image](https://user-images.githubusercontent.com/69178270/139427725-6950e31c-e788-40df-8c3b-415b709416ef.png)

@@ -10,4 +10,12 @@ Thay bằng **DMVPN Without IPsec**
 
 ![image](https://user-images.githubusercontent.com/69178270/139358397-51c1df38-789c-41af-8cc9-66a2f4a1e18b.png)
 
-_Lỗi không khởi động được Router_
+**B1:** Cầu hình
+
+Cấu hình R1
+
+![image](https://user-images.githubusercontent.com/69178270/139372222-530184c1-c236-4ebb-9e32-de5fac4aab9b.png)
+
+![image](https://user-images.githubusercontent.com/69178270/139372241-a8085b0d-c3d9-4abd-a86f-8ff20b115457.png)
+
+

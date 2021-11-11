@@ -46,29 +46,15 @@ _Cài đặt thất bại_
 
 ![image](https://user-images.githubusercontent.com/69178270/140241503-6e95536f-5069-4015-9aec-b764116b6f02.png)
 
-```
-=====
-import pexpect
-# ---- Class to hold information about a generic network device --------
-class NetworkDevice():
- def __init__(self, name, ip, user='cisco', pw='cisco'):
- self.name = name
- self.ip_address = ip
- self.username = user
- self.password = pw
- self.interfaces = ''
- def connect(self):
- self.session = None
- def get_interfaces(self):
- self.interfaces = '--- Base Device, does not know how to get interfaces ---'
-# ---- Class to hold information about an IOS-XE network device --------
-class NetworkDeviceIOS(NetworkDevice):
- # ---- Initialize --------------------------------------------------
- def __init__(self, name, ip, user='cisco', pw='cisco'):
- NetworkDevice.__init__(self, name, ip, user, pw)
- # ---- Connect to device -------------------------------------------
- def connect(self):
- print('--- connecting IOS: telnet ' + self.ip_address)
- self.session = pexpect.spawn('telnet ' + self.ip_address, timeout=20)
+![image](https://user-images.githubusercontent.com/69178270/141219264-09c4e30b-b14a-4040-b24b-0e0b40f1bb57.png)
 
-```
+![image](https://user-images.githubusercontent.com/69178270/141219274-0aa5c458-d08c-49b6-a35a-6d369a0de914.png)
+
+![image](https://user-images.githubusercontent.com/69178270/141219283-12cd0442-2582-4b85-98f4-f4c25c5f0f7c.png)
+
+![image](https://user-images.githubusercontent.com/69178270/141219291-6ebd4df5-05c7-4fab-9805-9752724085b2.png)
+
+![image](https://user-images.githubusercontent.com/69178270/141219304-90f6e50b-2314-469c-bad2-f7a334c0598a.png)
+
+![image](https://user-images.githubusercontent.com/69178270/141219309-28c103ef-a872-4776-963e-d4a02f50d1ad.png)
+
